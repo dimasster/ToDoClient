@@ -1,0 +1,65 @@
+@import '~antd/dist/antd.css';
+
+#root {
+    height: 100%;
+}
+.App {
+    height: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.list-view {
+    width: 25%;
+    height: 100%;
+    background: #00bfff;
+}
+
+.note-view {
+    width: 75%;
+    height: 100%;
+    background: #00ffff;
+}
+
+.list-form, .note-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.list-item, .note-item {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+}
+
+.list-item, .note-item, edit-btn, remove-btn, is-done-switch {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.list-btn {
+    display: flex;
+    height: 100%;
+    width: 75%;
+}
+
+.note-btn {
+    display: flex;
+    height: 100%;
+    width: 85%;
+}
+
+.list-btn h4, .note-btn h4 {
+    margin: 0;
+}
+
+.list-btn p, .note-btn p {
+    margin: 0;
+    text-align: start;
+}
+
+
